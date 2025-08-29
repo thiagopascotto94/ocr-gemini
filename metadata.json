@@ -1,0 +1,7 @@
+{
+  "name": "OCR com Gemini",
+  "description": "Uma aplicação web para extrair texto de imagens usando a API do Gemini. Faça o upload de uma imagem para realizar o Reconhecimento Óptico de Caracteres (OCR).",
+  "requestFramePermissions": [
+    "display-capture"
+  ]
+}

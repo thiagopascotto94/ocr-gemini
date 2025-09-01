@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ocr-gemini/sw.js', { scope: '/ocr-gemini/' })})}

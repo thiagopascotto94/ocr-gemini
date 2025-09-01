@@ -28,7 +28,8 @@ const DEFAULT_ACTIONS: Omit<CustomAction, 'id'>[] = [
   { name: "Resumir", prompt: "Faça um resumo conciso do seguinte conteúdo:" },
   { name: "Pontos Principais", prompt: "Liste os pontos principais do seguinte conteúdo em formato de bullet points:" },
   { name: "Traduzir para Inglês", prompt: "Traduza o seguinte conteúdo para o inglês:" },
-  { name: "Extrair E-mails", prompt: "Extraia todos os endereços de e-mail do seguinte texto. Se nenhum for encontrado, responda 'Nenhum e-mail encontrado'."}
+  { name: "Extrair E-mails", prompt: "Extraia todos os endereços de e-mail do seguinte texto. Se nenhum for encontrado, responda 'Nenhum e-mail encontrado'."},
+  { name: "Organizar", prompt: "Extraia e estruture as informações técnicas e comerciais do produto a seguir. Limite a resposta aos dados **diretamente relevantes** para a ficha técnica e o uso comercial, como tipo de produto, materiais, características de proteção, normas técnicas, diferenciais, uso recomendado e acessórios.\n\nFormate a saída em Markdown, utilizando uma estrutura de tópicos clara e concisa."}
 ];
 
 let db: IDBDatabase;
